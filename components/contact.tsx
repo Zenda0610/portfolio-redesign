@@ -2,7 +2,8 @@
 
 import { useActionState, useEffect, useRef, useState } from "react"
 import { useFormStatus } from "react-dom"
-import { CheckCircle2, Github, Linkedin, Mail, MapPin, MessageCircle, Send, XCircle } from "lucide-react"
+import { CheckCircle2, Mail, MapPin, MessageCircle, Send, XCircle } from "lucide-react"
+import { Github, Linkedin } from "@/components/brand-icons"
 import { useLanguage } from "@/lib/i18n"
 import { profile } from "@/lib/data"
 import { submitContact, type ContactState } from "@/app/actions"

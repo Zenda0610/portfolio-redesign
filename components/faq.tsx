@@ -21,7 +21,7 @@ export function Faq() {
         {faqs.map((faq, i) => {
           const isOpen = open === i
           return (
-            <Reveal key={faq.en ? i : i} delay={i * 50}>
+            <Reveal key={i} delay={i * 50}>
               <div className="overflow-hidden rounded-xl border border-border bg-card">
                 <h3>
                   <button

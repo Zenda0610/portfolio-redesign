@@ -2,7 +2,8 @@
 
 import { useEffect, useRef } from "react"
 import Image from "next/image"
-import { ExternalLink, Github, X } from "lucide-react"
+import { ExternalLink, X } from "lucide-react"
+import { Github } from "@/components/brand-icons"
 import { useLanguage } from "@/lib/i18n"
 import type { Project } from "@/lib/data"
 import { StatusBadge } from "./status-badge"

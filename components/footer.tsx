@@ -1,6 +1,7 @@
 "use client"
 
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Mail } from "lucide-react"
+import { Github, Linkedin, Twitter } from "@/components/brand-icons"
 import { useLanguage } from "@/lib/i18n"
 import { profile } from "@/lib/data"
 

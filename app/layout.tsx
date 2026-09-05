@@ -14,7 +14,7 @@ const instrumentSerif = Instrument_Serif({
   style: ["normal", "italic"],
 })
 
-const siteUrl = "https://alexrivera.dev" // ← replace with your domain
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://github.com/Zenda0610"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

@@ -1,6 +1,6 @@
 "use client"
 
-import { Github } from "lucide-react"
+import { Github } from "@/components/brand-icons"
 import { useLanguage } from "@/lib/i18n"
 import { profile } from "@/lib/data"
 import { SectionHeading } from "./section-heading"

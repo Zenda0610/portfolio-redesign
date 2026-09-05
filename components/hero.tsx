@@ -1,7 +1,8 @@
 "use client"
 
 import Image from "next/image"
-import { ArrowDown, ArrowRight, Download, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowDown, ArrowRight, Download, Mail } from "lucide-react"
+import { Github, Linkedin, Twitter } from "@/components/brand-icons"
 import { useLanguage } from "@/lib/i18n"
 import { profile } from "@/lib/data"
 

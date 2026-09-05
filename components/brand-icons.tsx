@@ -2,8 +2,8 @@ import type { SVGProps } from "react"
 
 /**
  * Brand logo icons.
- * lucide-react removed brand marks, so these are the official simple-icons style
- * glyphs wrapped as React components. They accept the same props as lucide icons
+ * lucide-react removed brand marks, so these are official SVG glyphs
+ * wrapped as React components. They accept the same props as lucide icons
  * (size via width/height, className, etc.) and inherit color via `currentColor`.
  */
 
@@ -43,3 +43,14 @@ export function WhatsappIcon({ size, ...props }: IconProps) {
     </svg>
   )
 }
+
+export function TwitterIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base({ size, ...props })}>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 24.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  )
+}
+
+// Aliases for compatibility
+export { GithubIcon as Github, LinkedinIcon as Linkedin, TwitterIcon as Twitter, TwitterIcon as XIcon, WhatsappIcon as Whatsapp }

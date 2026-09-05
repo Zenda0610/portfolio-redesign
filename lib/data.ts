@@ -2,9 +2,8 @@
  * ============================================================
  *  PORTFOLIO CONTENT — SINGLE SOURCE OF TRUTH
  * ============================================================
- *  Edit everything about "you" here. Text fields that differ
- *  by language use the shape { es: string; en: string }.
- *  Replace the sample data with your real information.
+ *  David Leonardo Martínez (@Zenda0610)
+ *  Desarrollador de Software | Full Stack & Automatización
  * ============================================================
  */
 
@@ -12,71 +11,70 @@ export type Locale = "es" | "en"
 export type Localized = Record<Locale, string>
 
 export const profile = {
-  name: "Alex Rivera",
-  // Shown in the hero, rotating between languages
+  name: "David Leonardo Martínez",
   role: {
-    es: "Desarrollador Full Stack",
-    en: "Full Stack Developer",
+    es: "Desarrollador de Software",
+    en: "Software Developer",
   } satisfies Localized,
   tagline: {
-    es: "Construyo productos web rápidos, accesibles y escalables de principio a fin.",
-    en: "I build fast, accessible and scalable web products from end to end.",
+    es: "Construyo aplicaciones web robustas, flujos de automatización e integraciones con Inteligencia Artificial.",
+    en: "I build robust web applications, automated workflows and AI-driven integrations.",
   } satisfies Localized,
   location: {
-    es: "Ciudad de México, MX (remoto)",
-    en: "Mexico City, MX (remote)",
+    es: "Ocaña, Norte de Santander, Colombia (Remoto)",
+    en: "Ocaña, Norte de Santander, Colombia (Remote)",
   } satisfies Localized,
   availability: {
-    es: "Disponible para nuevos proyectos",
-    en: "Available for new projects",
+    es: "Disponible para nuevas oportunidades laborales",
+    en: "Available for new professional opportunities",
   } satisfies Localized,
   avatar: "/avatar.png",
-  email: "hello@alexrivera.dev",
-  phone: "+52 55 0000 0000",
-  whatsapp: "5255000000000", // digits only, international format
+  email: "davidlealperez522@gmail.com",
+  phone: "+57 312 000 0000",
+  whatsapp: "573120000000",
   cv: {
-    es: "/cv-alex-rivera-es.pdf",
-    en: "/cv-alex-rivera-en.pdf",
+    es: "/cv-david-martinez-es.pdf",
+    en: "/cv-david-martinez-en.pdf",
   } satisfies Localized,
-  githubUser: "vercel",
+  githubUser: "Zenda0610",
   socials: {
-    github: "https://github.com/vercel",
-    linkedin: "https://linkedin.com/in/example",
-    x: "https://x.com/example",
+    github: "https://github.com/Zenda0610",
+    linkedin: "https://linkedin.com/in/david-leonardo-martinez",
+    x: "https://github.com/Zenda0610",
     dribbble: "",
   },
 }
 
 export const about = {
   intro: {
-    es: "Soy un desarrollador full stack con más de 5 años creando aplicaciones web que combinan un diseño cuidado con una ingeniería sólida. Me apasiona el punto donde el producto, la experiencia de usuario y el rendimiento se encuentran.",
-    en: "I'm a full stack developer with 5+ years building web applications that blend thoughtful design with solid engineering. I love the intersection of product, user experience and performance.",
+    es: "Soy desarrollador y estudiante de desarrollo de software con base en Colombia. Me apasiona resolver problemas reales mediante código limpio, integraciones con LLMs (Google Gemini) y automatización de procesos con herramientas como n8n.",
+    en: "I am a software developer and software engineering student based in Colombia. I am passionate about solving real-world challenges through clean code, LLM integrations (Google Gemini) and process automation with tools like n8n.",
   } satisfies Localized,
   story: {
-    es: "Empecé escribiendo HTML y CSS por curiosidad y terminé enamorándome de resolver problemas complejos con código limpio. Hoy trabajo de extremo a extremo: desde el modelado de datos y las APIs hasta interfaces pulidas y accesibles.",
-    en: "I started writing HTML and CSS out of curiosity and ended up falling in love with solving complex problems through clean code. Today I work end to end: from data modeling and APIs to polished, accessible interfaces.",
+    es: "Mi trayectoria comenzó explorando los fundamentos de la algoritmia y la lógica de programación. Rápidamente evolucioné hacia el desarrollo Full Stack moderno y la arquitectura de soluciones automatizadas, conectando frontends interactivos con APIs REST, bases de datos relacionales y agentes de IA.",
+    en: "My journey started exploring algorithmic fundamentals and programming logic. I quickly transitioned into modern Full Stack engineering and automated solution architecture, connecting interactive frontends with REST APIs, relational databases and AI agents.",
   } satisfies Localized,
   philosophy: {
-    es: "Creo en el software simple, medible y mantenible. Menos magia, más claridad. La mejor arquitectura es la que tu equipo puede entender y evolucionar.",
-    en: "I believe in software that is simple, measurable and maintainable. Less magic, more clarity. The best architecture is the one your team can understand and evolve.",
+    es: "Aplico una metodología continua: Explorar, Aplicar, Analizar y Optimizar. Prefiero la claridad y la solidez antes que la complejidad innecesaria.",
+    en: "I follow a continuous methodology: Explore, Apply, Analyze and Optimize. I prioritize clarity and resilience over unnecessary complexity.",
   } satisfies Localized,
   strengths: [
-    { es: "Arquitectura escalable", en: "Scalable architecture" },
-    { es: "Rendimiento y Core Web Vitals", en: "Performance & Core Web Vitals" },
-    { es: "Accesibilidad (WCAG)", en: "Accessibility (WCAG)" },
-    { es: "Diseño de APIs", en: "API design" },
-    { es: "UI/UX de producto", en: "Product UI/UX" },
-    { es: "Mentoría técnica", en: "Technical mentoring" },
+    { es: "Desarrollo Full Stack (Node.js, Express, React)", en: "Full Stack Development (Node.js, Express, React)" },
+    { es: "Automatización de Procesos (n8n, Webhooks)", en: "Process Automation (n8n, Webhooks)" },
+    { es: "Integración de IA Generativa (Google Gemini API)", en: "Generative AI Integration (Google Gemini API)" },
+    { es: "Manipulación Avanzada del DOM (Vanilla JavaScript)", en: "Advanced DOM Manipulation (Vanilla JavaScript)" },
+    { es: "Diseño y Consumo de APIs REST", en: "REST API Design & Consumption" },
+    { es: "Modelado y Gestión de Bases de Datos", en: "Database Modeling & Management" },
   ] satisfies Localized[],
   interests: {
-    es: "Sistemas de diseño, edge computing, IA aplicada, DX y código abierto.",
-    en: "Design systems, edge computing, applied AI, DX and open source.",
+    es: "Inteligencia Artificial aplicada, arquitectura de software, automatización empresarial, DX y open source.",
+    en: "Applied Artificial Intelligence, software architecture, enterprise automation, DX and open source.",
   } satisfies Localized,
   stats: [
-    { value: "5+", label: { es: "Años de experiencia", en: "Years of experience" } },
-    { value: "40+", label: { es: "Proyectos entregados", en: "Projects delivered" } },
-    { value: "20+", label: { es: "Clientes satisfechos", en: "Happy clients" } },
-    { value: "99", label: { es: "Puntaje Lighthouse", en: "Lighthouse score" } },
+    { value: "10+", label: { es: "Soluciones y módulos desarrollados", en: "Developed solutions & modules" } },
+    { value: "4+", label: { es: "Sistemas web completos", en: "Complete web systems" } },
+    { value: "100%", label: { es: "Enfoque práctico y orientado a valor", en: "Hands-on & value-driven focus" } },
+    { value: "24/7", label: { es: "Compromiso de aprendizaje continuo", en: "Continuous learning mindset" } },
   ] as { value: string; label: Localized }[],
 }
 
@@ -91,67 +89,51 @@ export const techStack: SkillCategory[] = [
     id: "frontend",
     title: { es: "Frontend", en: "Frontend" },
     skills: [
-      { name: "React", level: 95, years: 5 },
-      { name: "Next.js", level: 92, years: 4 },
-      { name: "TypeScript", level: 90, years: 4 },
-      { name: "Tailwind CSS", level: 93, years: 3 },
-      { name: "Vue", level: 70, years: 2 },
+      { name: "JavaScript (ES6+)", level: 92, years: 2 },
+      { name: "HTML5 & CSS3 Avanzado", level: 95, years: 2 },
+      { name: "React", level: 82, years: 1 },
+      { name: "Next.js", level: 80, years: 1 },
+      { name: "Tailwind CSS", level: 88, years: 1 },
     ],
   },
   {
     id: "backend",
-    title: { es: "Backend", en: "Backend" },
+    title: { es: "Backend & APIs", en: "Backend & APIs" },
     skills: [
-      { name: "Node.js", level: 90, years: 5 },
-      { name: "Python", level: 78, years: 3 },
-      { name: "Go", level: 65, years: 2 },
-      { name: "GraphQL", level: 80, years: 3 },
-      { name: "tRPC", level: 82, years: 2 },
+      { name: "Node.js", level: 88, years: 2 },
+      { name: "Express.js", level: 90, years: 2 },
+      { name: "Python", level: 82, years: 2 },
+      { name: "REST APIs & JWT", level: 90, years: 2 },
+    ],
+  },
+  {
+    id: "automation-ai",
+    title: { es: "Automatización & IA", en: "Automation & AI" },
+    skills: [
+      { name: "n8n Workflows", level: 92, years: 1 },
+      { name: "Google Gemini AI SDK", level: 88, years: 1 },
+      { name: "Webhooks & APIs Externas", level: 90, years: 2 },
+      { name: "Prompt Engineering Estructurado", level: 85, years: 1 },
     ],
   },
   {
     id: "databases",
-    title: { es: "Bases de datos", en: "Databases" },
+    title: { es: "Bases de Datos", en: "Databases" },
     skills: [
-      { name: "PostgreSQL", level: 88, years: 4 },
-      { name: "MongoDB", level: 75, years: 3 },
-      { name: "Redis", level: 78, years: 3 },
-      { name: "Prisma", level: 85, years: 3 },
-    ],
-  },
-  {
-    id: "cloud",
-    title: { es: "Cloud", en: "Cloud" },
-    skills: [
-      { name: "Vercel", level: 92, years: 4 },
-      { name: "AWS", level: 78, years: 3 },
-      { name: "Cloudflare", level: 74, years: 2 },
-    ],
-  },
-  {
-    id: "devops",
-    title: { es: "DevOps", en: "DevOps" },
-    skills: [
-      { name: "Docker", level: 80, years: 3 },
-      { name: "GitHub Actions", level: 85, years: 3 },
-      { name: "Kubernetes", level: 60, years: 1 },
+      { name: "PostgreSQL", level: 82, years: 1 },
+      { name: "MySQL", level: 85, years: 2 },
+      { name: "JSON Local Persistence", level: 90, years: 2 },
+      { name: "Google Sheets API", level: 88, years: 1 },
     ],
   },
   {
     id: "tools",
-    title: { es: "Herramientas", en: "Tools" },
+    title: { es: "Herramientas & Entorno", en: "Tools & Environment" },
     skills: [
-      { name: "Git", level: 95, years: 5 },
-      { name: "Jest / Vitest", level: 82, years: 3 },
-      { name: "Playwright", level: 76, years: 2 },
-    ],
-  },
-  {
-    id: "design",
-    title: { es: "Diseño", en: "Design" },
-    skills: [
-      { name: "Figma", level: 84, years: 4 },
-      { name: "Design Systems", level: 80, years: 3 },
+      { name: "Git & GitHub", level: 88, years: 2 },
+      { name: "Postman", level: 85, years: 2 },
+      { name: "Linux / Bash", level: 75, years: 1 },
+      { name: "VS Code", level: 95, years: 2 },
     ],
   },
 ]
@@ -168,47 +150,20 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: "Northwind Labs",
-    role: { es: "Senior Full Stack Developer", en: "Senior Full Stack Developer" },
+    company: "Proyectos Independientes & Soluciones de Software",
+    role: { es: "Desarrollador Full Stack & Automatización", en: "Full Stack & Automation Developer" },
     period: { es: "2023 — Presente", en: "2023 — Present" },
     current: true,
     description: {
-      es: "Lidero el desarrollo de la plataforma SaaS principal y su sistema de diseño.",
-      en: "Leading development of the core SaaS platform and its design system.",
+      es: "Diseño, arquitectura e implementación de aplicaciones web interactivas, integración de modelos de lenguaje y automatización de flujos de trabajo empresariales.",
+      en: "Design, architecture and implementation of interactive web applications, LLM integrations and enterprise workflow automation.",
     },
     achievements: [
-      { es: "Reduje el tiempo de carga (LCP) un 45% migrando a Next.js App Router.", en: "Cut load time (LCP) by 45% migrating to the Next.js App Router." },
-      { es: "Diseñé un sistema de diseño usado por 6 equipos.", en: "Built a design system used by 6 teams." },
-      { es: "Mentoré a 4 desarrolladores junior.", en: "Mentored 4 junior developers." },
+      { es: "Desarrollé LogicRank AI: motor de evaluación adaptativa con Node.js, Express y Google Gemini.", en: "Built LogicRank AI: adaptive evaluation engine using Node.js, Express and Google Gemini." },
+      { es: "Creé TalentAI: sistema automatizado de screening de CVs con n8n, OpenRouter y Google Sheets.", en: "Engineered TalentAI: automated CV screening platform powered by n8n, OpenRouter and Google Sheets." },
+      { es: "Diseñé SmartQueue: plataforma de gestión de turnos conectada a PostgreSQL vía webhooks de n8n.", en: "Designed SmartQueue: appointment scheduling system integrated with PostgreSQL via n8n webhooks." },
     ],
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
-  },
-  {
-    company: "Pixel Foundry",
-    role: { es: "Full Stack Developer", en: "Full Stack Developer" },
-    period: { es: "2021 — 2023", en: "2021 — 2023" },
-    description: {
-      es: "Desarrollé aplicaciones web a medida para clientes de e-commerce y fintech.",
-      en: "Built custom web applications for e-commerce and fintech clients.",
-    },
-    achievements: [
-      { es: "Entregué 15+ proyectos con un 98% de satisfacción del cliente.", en: "Delivered 15+ projects with 98% client satisfaction." },
-      { es: "Implementé CI/CD que redujo los despliegues a minutos.", en: "Implemented CI/CD that reduced deploys to minutes." },
-    ],
-    tech: ["React", "Node.js", "MongoDB", "Docker"],
-  },
-  {
-    company: "Freelance",
-    role: { es: "Desarrollador Web", en: "Web Developer" },
-    period: { es: "2020 — 2021", en: "2020 — 2021" },
-    description: {
-      es: "Diseñé y construí sitios y landing pages de alto rendimiento para pymes.",
-      en: "Designed and built high-performance sites and landing pages for SMBs.",
-    },
-    achievements: [
-      { es: "Aumenté las conversiones de clientes hasta un 30%.", en: "Increased client conversions by up to 30%." },
-    ],
-    tech: ["React", "Tailwind", "Figma"],
+    tech: ["Node.js", "Express", "Next.js", "Google Gemini", "n8n", "PostgreSQL", "Python"],
   },
 ]
 
@@ -233,161 +188,162 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "saas-dashboard",
-    title: "Northwind Analytics",
-    category: { es: "Aplicación Web", en: "Web App" },
+    slug: "logicrank-ai",
+    title: "LogicRank AI",
+    category: { es: "Full Stack & Inteligencia Artificial", en: "Full Stack & Artificial Intelligence" },
     summary: {
-      es: "Panel de analítica en tiempo real para equipos de producto.",
-      en: "Real-time analytics dashboard for product teams.",
+      es: "Sistema de evaluación adaptativa de razonamiento lógico impulsado por Google Gemini.",
+      en: "Adaptive logical reasoning evaluation platform powered by Google Gemini.",
     },
     problem: {
-      es: "Los equipos no tenían una vista unificada de sus métricas clave y perdían horas exportando datos manualmente.",
-      en: "Teams lacked a unified view of key metrics and wasted hours exporting data manually.",
+      es: "Las evaluaciones estandarizadas tradicionales tienen dificultad fija, desmotivando al estudiante y sin ofrecer retroalimentación cognitiva personalizada.",
+      en: "Traditional standardized exams feature fixed difficulty, causing student disengagement without actionable cognitive feedback.",
     },
     description: {
-      es: "Plataforma que agrega eventos de múltiples fuentes y los visualiza en dashboards personalizables con actualizaciones en vivo.",
-      en: "A platform that aggregates events from multiple sources and visualizes them in customizable, live-updating dashboards.",
+      es: "Plataforma cliente-servidor con backend en Express, autenticación JWT y generación dinámica de preguntas mediante Google Gemini 2.5 Flash. Calibra la dificultad en tiempo real según rachas de aciertos o fallos.",
+      en: "Client-server platform with an Express backend, JWT authentication, and dynamic question generation using Google Gemini 2.5 Flash. It calibrates difficulty in real-time based on consecutive answer streaks.",
+    },
+    image: "/projects/ai-chat.png",
+    featured: true,
+    status: "live",
+    tech: ["Node.js", "Express.js", "Google Gemini AI", "JWT", "JavaScript (ES6+)", "CSS3"],
+    features: [
+      { es: "Motor adaptativo dinámico (CAT) de 10 niveles", en: "10-level dynamic adaptive test engine (CAT)" },
+      { es: "Generación estructurada JSON con Google Gemini", en: "Structured JSON generation with Google Gemini" },
+      { es: "Banco local de respaldo con modo offline resiliente", en: "Local fallback question bank with resilient offline mode" },
+      { es: "Dashboard docente con métricas por curso y ranking", en: "Instructor dashboard with course metrics and rankings" },
+    ],
+    challenges: {
+      es: "Garantizar que las respuestas del LLM cumplieran siempre el formato JSON estricto y crear un fallback sin degradar la experiencia de examen.",
+      en: "Ensuring LLM responses strictly adhere to structured JSON and implementing a graceful fallback without interrupting the exam flow.",
+    },
+    learnings: {
+      es: "Dominio de responseMimeType en Gemini SDK, manejo seguro de sesiones JWT y arquitectura de adaptabilidad pedagógica.",
+      en: "Mastery of responseMimeType in Gemini SDK, secure JWT session handling and pedagogical adaptability architecture.",
+    },
+    architecture: {
+      es: "Arquitectura multicapa en Express (Rutas, Middleware, Adaptador de Base de Datos y Servicio de IA), con SPA modular en frontend.",
+      en: "Multitier Express architecture (Routes, Middleware, Persistence Adapter and AI Service), with a modular SPA frontend.",
+    },
+    github: "https://github.com/Zenda0610/Evaluaci-nDeRazonamientoLogicoInteligente",
+  },
+  {
+    slug: "talentai-ats",
+    title: "TalentAI ATS",
+    category: { es: "Automatización & IA", en: "Automation & AI" },
+    summary: {
+      es: "Plataforma de reclutamiento y clasificación inteligente de hojas de vida con n8n.",
+      en: "Intelligent recruitment and CV scoring platform powered by n8n workflows.",
+    },
+    problem: {
+      es: "Los reclutadores invierten incontables horas revisando manualmente postulaciones sin criterios unificados de preselección.",
+      en: "Recruiters spend countless hours manually reviewing resumes without unified screening criteria.",
+    },
+    description: {
+      es: "Sistema web conectado a flujos de trabajo en n8n que procesa archivos curriculares en Base64, realiza análisis semántico con IA (OpenRouter) y sincroniza datos en Google Sheets y Telegram.",
+      en: "Web system connected to n8n workflows that processes Base64 resumes, performs semantic AI analysis (OpenRouter), and syncs records with Google Sheets and Telegram.",
     },
     image: "/projects/saas-dashboard.png",
     featured: true,
     status: "live",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "Tailwind CSS"],
+    tech: ["n8n Workflows", "OpenRouter AI", "Google Sheets API", "Telegram Bot API", "JavaScript"],
     features: [
-      { es: "Dashboards personalizables por drag & drop", en: "Drag & drop customizable dashboards" },
-      { es: "Actualizaciones en tiempo real vía WebSockets", en: "Real-time updates via WebSockets" },
-      { es: "Control de acceso por roles", en: "Role-based access control" },
+      { es: "Lectura y carga de CVs en formato Base64", en: "Base64 resume parsing and upload pipeline" },
+      { es: "Scoring y feedback automático de candidatos", en: "Automated candidate scoring and AI feedback" },
+      { es: "Sincronización bidireccional con Google Sheets", en: "Bidirectional sync with Google Sheets" },
+      { es: "Notificaciones instantáneas vía bot de Telegram", en: "Instant alerts via Telegram Bot integration" },
     ],
     challenges: {
-      es: "Mantener consultas rápidas sobre millones de eventos sin degradar la experiencia en vivo.",
-      en: "Keeping queries fast over millions of events without degrading the live experience.",
+      es: "Mapear flujos condicionales de decisión en n8n y estructurar la comunicación asíncrona entre el cliente web y los webhooks.",
+      en: "Mapping conditional decision flows in n8n and orchestrating asynchronous communication between client webhooks.",
     },
     learnings: {
-      es: "Aprendí a diseñar cachés de lectura con Redis y a paginar de forma eficiente en el edge.",
-      en: "Learned to design read caches with Redis and paginate efficiently at the edge.",
+      es: "Diseño de flujos Low-Code orientados a eventos, integración de APIs REST de terceros y manejo seguro de webhooks.",
+      en: "Event-driven Low-Code workflow design, third-party REST API integrations and secure webhook consumption.",
     },
     architecture: {
-      es: "App Router + Server Actions, capa de datos con Prisma, cache con Redis y streaming de UI.",
-      en: "App Router + Server Actions, data layer with Prisma, Redis caching and UI streaming.",
+      es: "Frontend desacoplado consumiendo webhooks de n8n, enrutamiento condicional y persistencia en Google Sheets.",
+      en: "Decoupled frontend triggering n8n webhooks, conditional routing logic and Google Sheets persistence.",
     },
-    demo: "https://example.com",
-    github: "https://github.com/vercel",
+    github: "https://github.com/Zenda0610/Examenn8n",
   },
   {
-    slug: "ecommerce",
-    title: "Aurora Store",
-    category: { es: "E-commerce", en: "E-commerce" },
+    slug: "javascript-dom-lab",
+    title: "Vanilla JavaScript Lab",
+    category: { es: "Frontend & DOM", en: "Frontend & DOM" },
     summary: {
-      es: "Tienda headless con checkout optimizado y CMS.",
-      en: "Headless store with an optimized checkout and CMS.",
+      es: "Catálogo interactivo de 10 utilidades y componentes construidos con JavaScript nativo.",
+      en: "Interactive catalog of 10 components and widgets built with native JavaScript.",
     },
     problem: {
-      es: "Una marca necesitaba una tienda rápida y editable sin depender de plantillas rígidas.",
-      en: "A brand needed a fast, editable store without relying on rigid templates.",
+      es: "La sobredependencia de frameworks dificulta a menudo comprender el ciclo de vida real de eventos del DOM y optimizar el rendimiento nativo.",
+      en: "Over-reliance on heavy frameworks often obscures understanding of core DOM lifecycle events and native performance.",
     },
     description: {
-      es: "Storefront headless con catálogo dinámico, carrito persistente y pagos integrados.",
-      en: "Headless storefront with a dynamic catalog, persistent cart and integrated payments.",
+      es: "Monorepositorio modular con 10 soluciones prácticas: buscador con autocompletado, selector de tema oscuro con persistencia, generador dinámico, validación de formularios en tiempo real y lightbox.",
+      en: "Modular monorepo with 10 practical solutions: autocomplete search, dark mode with persistence, dynamic generator, real-time form validation and lightbox.",
     },
     image: "/projects/ecommerce.png",
     featured: true,
     status: "live",
-    tech: ["Next.js", "Stripe", "Tailwind CSS", "PostgreSQL"],
+    tech: ["JavaScript (ES6+)", "HTML5 Semántico", "CSS3 Moderno", "LocalStorage", "DOM API"],
     features: [
-      { es: "Checkout con Stripe", en: "Stripe checkout" },
-      { es: "Búsqueda y filtros instantáneos", en: "Instant search and filters" },
-      { es: "CMS para editar productos", en: "CMS to edit products" },
+      { es: "10 módulos completamente desacoplados y funcionales", en: "10 fully decoupled, functional modules" },
+      { es: "Persistencia de estado en cliente con LocalStorage", en: "Client-side state persistence with LocalStorage" },
+      { es: "Validación de formularios reactiva en tiempo real", en: "Reactive real-time form validation" },
+      { es: "Cero dependencias externas o librerías pesadas", en: "Zero external dependencies or bloated libraries" },
     ],
     challenges: {
-      es: "Lograr un LCP por debajo de 1.5s con imágenes de producto de alta calidad.",
-      en: "Achieving an LCP under 1.5s with high-quality product images.",
+      es: "Implementar filtrado y búsqueda eficiente sin recurrir a paquetes externos, manteniendo el código limpio y reusable.",
+      en: "Implementing efficient filtering and search algorithms without external libraries while maintaining clean code.",
     },
     learnings: {
-      es: "Optimización de imágenes, prefetching inteligente y estrategias de caché por ruta.",
-      en: "Image optimization, smart prefetching and per-route caching strategies.",
+      es: "Dominio exhaustivo del árbol DOM, delegación de eventos, manipulación de clases CSS y diseño accesible.",
+      en: "Deep mastery of the DOM tree, event delegation, CSS class manipulation and accessible UI patterns.",
     },
     architecture: {
-      es: "Arquitectura headless, ISR para catálogo y Server Actions para el carrito.",
-      en: "Headless architecture, ISR for the catalog and Server Actions for the cart.",
+      es: "Monorepositorio con portal central index y módulos independientes con sus propios contratos HTML/CSS/JS.",
+      en: "Monorepo featuring a central index launcher and independent modules with distinct HTML/CSS/JS boundaries.",
     },
-    demo: "https://example.com",
-    github: "https://github.com/vercel",
+    github: "https://github.com/Zenda0610/TrabajoJavaScript",
   },
   {
-    slug: "ai-chat",
-    title: "Sage AI",
-    category: { es: "IA", en: "AI" },
+    slug: "smartqueue-turnos",
+    title: "SmartQueue — Turnos y Citas",
+    category: { es: "Automatización & Bases de Datos", en: "Automation & Databases" },
     summary: {
-      es: "Asistente conversacional con streaming y herramientas.",
-      en: "Conversational assistant with streaming and tools.",
+      es: "Sistema web de reserva y asignación de turnos conectado a PostgreSQL mediante n8n.",
+      en: "Online appointment and queue management web app integrated with PostgreSQL via n8n.",
     },
     problem: {
-      es: "Los usuarios necesitaban respuestas contextualizadas sobre su propia documentación.",
-      en: "Users needed contextual answers about their own documentation.",
+      es: "Procesos manuales de atención presencial que provocan tiempos de espera excesivos y descontrol en la asignación de cupos.",
+      en: "Manual in-person queues causing excessive wait times and lack of visibility into slot allocation.",
     },
     description: {
-      es: "Chat con RAG sobre documentos privados, respuestas en streaming y herramientas personalizadas.",
-      en: "Chat with RAG over private documents, streaming responses and custom tools.",
-    },
-    image: "/projects/ai-chat.png",
-    featured: true,
-    status: "wip",
-    tech: ["Next.js", "AI SDK", "TypeScript", "PostgreSQL"],
-    features: [
-      { es: "Respuestas en streaming", en: "Streaming responses" },
-      { es: "RAG sobre documentos", en: "RAG over documents" },
-      { es: "Herramientas (tool calling)", en: "Tool calling" },
-    ],
-    challenges: {
-      es: "Diseñar un pipeline de embeddings eficiente y una UI de streaming fluida.",
-      en: "Designing an efficient embeddings pipeline and a smooth streaming UI.",
-    },
-    learnings: {
-      es: "Buenas prácticas de RAG, control de costos de tokens y UX de IA.",
-      en: "RAG best practices, token cost control and AI UX.",
-    },
-    architecture: {
-      es: "AI SDK + Route Handlers con streaming, embeddings en Postgres (pgvector).",
-      en: "AI SDK + Route Handlers with streaming, embeddings in Postgres (pgvector).",
-    },
-    demo: "https://example.com",
-    github: "https://github.com/vercel",
-  },
-  {
-    slug: "fintech",
-    title: "Ledger Mobile",
-    category: { es: "Fintech", en: "Fintech" },
-    summary: {
-      es: "App de finanzas personales con presupuestos inteligentes.",
-      en: "Personal finance app with smart budgets.",
-    },
-    problem: {
-      es: "Las personas querían entender sus gastos sin hojas de cálculo.",
-      en: "People wanted to understand their spending without spreadsheets.",
-    },
-    description: {
-      es: "Aplicación que categoriza transacciones automáticamente y sugiere presupuestos.",
-      en: "An app that automatically categorizes transactions and suggests budgets.",
+      es: "Aplicación frontend de registro con validaciones dinámicas, generación de códigos únicos y canalización a PostgreSQL para trazabilidad completa del servicio.",
+      en: "Frontend booking app with dynamic validation, unique ticket code generation, and pipeline into PostgreSQL for end-to-end service traceability.",
     },
     image: "/projects/fintech.png",
-    status: "archived",
-    tech: ["React Native", "Node.js", "PostgreSQL"],
+    status: "live",
+    tech: ["HTML5", "CSS3", "JavaScript", "n8n Webhooks", "PostgreSQL"],
     features: [
-      { es: "Categorización automática", en: "Automatic categorization" },
-      { es: "Presupuestos y alertas", en: "Budgets and alerts" },
+      { es: "Generación de tickets numerados (SQ-YYYY-XXXX)", en: "Unique ticket code generation (SQ-YYYY-XXXX)" },
+      { es: "Validación estricta de formularios y fechas futuras", en: "Strict form and future date validations" },
+      { es: "Inserción transaccional directa en base de datos", en: "Direct transactional insertion into PostgreSQL" },
     ],
     challenges: {
-      es: "Sincronización segura de datos financieros sensibles.",
-      en: "Securely syncing sensitive financial data.",
+      es: "Estructurar la inserción segura en PostgreSQL mediante el nodo relacional de n8n sin exponer credenciales de base de datos en el cliente.",
+      en: "Structuring secure PostgreSQL insertions via n8n's relational node without exposing credentials on the client.",
     },
     learnings: {
-      es: "Seguridad de datos, encriptación y diseño mobile-first.",
-      en: "Data security, encryption and mobile-first design.",
+      es: "Arquitecturas serverless ligeras, desacoplamiento de capas y diseño de formularios centrados en el usuario.",
+      en: "Lightweight serverless architectures, layer decoupling and user-centric form design.",
     },
     architecture: {
-      es: "API en Node.js, cifrado en reposo y sincronización offline-first.",
-      en: "Node.js API, encryption at rest and offline-first sync.",
+      es: "Frontend estático que se comunica con n8n mediante HTTP POST Webhook, el cual ejecuta las mutaciones SQL en PostgreSQL.",
+      en: "Static frontend communicating with n8n via HTTP POST Webhook, which handles SQL mutations in PostgreSQL.",
     },
-    github: "https://github.com/vercel",
+    github: "https://github.com/Zenda0610/Automatizaci-nn8n",
   },
 ]
 
@@ -400,66 +356,39 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    id: "landing",
-    icon: "Rocket",
-    title: { es: "Landing Pages", en: "Landing Pages" },
-    description: {
-      es: "Páginas rápidas y optimizadas para conversión.",
-      en: "Fast pages optimized for conversion.",
-    },
-  },
-  {
     id: "webapps",
     icon: "LayoutDashboard",
-    title: { es: "Aplicaciones Web", en: "Web Applications" },
+    title: { es: "Aplicaciones Web Full Stack", en: "Full Stack Web Applications" },
     description: {
-      es: "Productos full stack escalables y mantenibles.",
-      en: "Scalable, maintainable full stack products.",
-    },
-  },
-  {
-    id: "apis",
-    icon: "Server",
-    title: { es: "APIs", en: "APIs" },
-    description: {
-      es: "APIs REST y GraphQL seguras y bien documentadas.",
-      en: "Secure, well-documented REST and GraphQL APIs.",
-    },
-  },
-  {
-    id: "ecommerce",
-    icon: "ShoppingCart",
-    title: { es: "E-commerce", en: "E-commerce" },
-    description: {
-      es: "Tiendas headless con pagos y CMS.",
-      en: "Headless stores with payments and CMS.",
+      es: "Desarrollo de aplicaciones completas con React, Next.js, Node.js y Express con arquitectura limpia.",
+      en: "End-to-end applications built with React, Next.js, Node.js and Express with clean architecture.",
     },
   },
   {
     id: "automation",
     icon: "Workflow",
-    title: { es: "Automatización", en: "Automation" },
+    title: { es: "Automatización de Procesos (n8n)", en: "Process Automation (n8n)" },
     description: {
-      es: "Flujos e integraciones que ahorran tiempo.",
-      en: "Workflows and integrations that save time.",
+      es: "Diseño de flujos automatizados que conectan servicios en la nube, bases de datos y notificaciones.",
+      en: "Automated workflow design connecting cloud services, databases and notifications.",
     },
   },
   {
-    id: "performance",
-    icon: "Gauge",
-    title: { es: "Optimización", en: "Optimization" },
-    description: {
-      es: "Mejoro Core Web Vitals y velocidad de carga.",
-      en: "I improve Core Web Vitals and load speed.",
-    },
-  },
-  {
-    id: "consulting",
+    id: "ai-integration",
     icon: "Lightbulb",
-    title: { es: "Consultoría", en: "Consulting" },
+    title: { es: "Integración de IA (LLMs)", en: "AI Integration (LLMs)" },
     description: {
-      es: "Arquitectura, revisiones de código y estrategia técnica.",
-      en: "Architecture, code reviews and technical strategy.",
+      es: "Incorporación de modelos como Google Gemini en sistemas existentes con salidas JSON y prompts optimizados.",
+      en: "Embedding models like Google Gemini into production systems with JSON schemas and optimized prompts.",
+    },
+  },
+  {
+    id: "apis",
+    icon: "Server",
+    title: { es: "Desarrollo de APIs REST", en: "REST API Development" },
+    description: {
+      es: "APIs seguras, modulares y bien documentadas con autenticación JWT y buenas prácticas de persistencia.",
+      en: "Secure, modular and well-documented APIs with JWT authentication and solid persistence patterns.",
     },
   },
 ]
@@ -473,21 +402,21 @@ export type TimelineItem = {
 
 export const education: TimelineItem[] = [
   {
-    title: { es: "Ingeniería en Sistemas Computacionales", en: "B.Sc. in Computer Science" },
-    place: "Universidad Nacional",
-    period: { es: "2016 — 2020", en: "2016 — 2020" },
+    title: { es: "Tecnología en Desarrollo de Software", en: "Software Development Technology" },
+    place: "Colombia",
+    period: { es: "En curso", en: "In progress" },
     description: {
-      es: "Enfoque en ingeniería de software y estructuras de datos.",
-      en: "Focus on software engineering and data structures.",
+      es: "Formación integral en ingeniería de software, algoritmia, bases de datos, desarrollo web y arquitecturas modernas.",
+      en: "Comprehensive training in software engineering, algorithms, databases, web development and modern architectures.",
     },
   },
   {
-    title: { es: "Bootcamp Full Stack", en: "Full Stack Bootcamp" },
-    place: "Code Academy",
-    period: { es: "2020", en: "2020" },
+    title: { es: "Formación Continua en Desarrollo Web & Automatización", en: "Continuous Learning in Web Dev & Automation" },
+    place: "Autodidacta / Cursos Especializados",
+    period: { es: "2023 — Presente", en: "2023 — Present" },
     description: {
-      es: "Programa intensivo de desarrollo web moderno.",
-      en: "Intensive modern web development program.",
+      es: "Especialización en ecosistema JavaScript/TypeScript, integración de modelos de Inteligencia Artificial y flujos con n8n.",
+      en: "Specialization in JavaScript/TypeScript ecosystem, AI model integration and n8n workflow engineering.",
     },
   },
 ]
@@ -500,9 +429,9 @@ export type Certification = {
 }
 
 export const certifications: Certification[] = [
-  { title: "AWS Certified Developer – Associate", issuer: "Amazon Web Services", year: "2024", url: "https://example.com" },
-  { title: "Professional Cloud Developer", issuer: "Google Cloud", year: "2023", url: "https://example.com" },
-  { title: "Meta Front-End Developer", issuer: "Meta", year: "2022", url: "https://example.com" },
+  { title: "Desarrollo Web Full Stack con JavaScript", issuer: "Ecosistema Tech", year: "2024", url: "https://github.com/Zenda0610" },
+  { title: "Automatización de Procesos Empresariales con n8n", issuer: "Certificación Práctica", year: "2024", url: "https://github.com/Zenda0610" },
+  { title: "Algoritmia y Lógica de Programación", issuer: "Formación Académica", year: "2023", url: "https://github.com/Zenda0610" },
 ]
 
 export type Testimonial = {
@@ -514,27 +443,11 @@ export type Testimonial = {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "María González",
-    role: { es: "Product Manager, Northwind", en: "Product Manager, Northwind" },
+    name: "Comunidad Académica & Colaboradores",
+    role: { es: "Revisión de Pares Técnicos", en: "Peer Review" },
     quote: {
-      es: "Alex convierte requerimientos complejos en productos claros y rápidos. Un profesional excepcional.",
-      en: "Alex turns complex requirements into clear, fast products. An exceptional professional.",
-    },
-  },
-  {
-    name: "James Carter",
-    role: { es: "CTO, Pixel Foundry", en: "CTO, Pixel Foundry" },
-    quote: {
-      es: "Su atención al rendimiento y a la accesibilidad elevó el nivel de todo el equipo.",
-      en: "His attention to performance and accessibility raised the bar for the whole team.",
-    },
-  },
-  {
-    name: "Sofía Ramírez",
-    role: { es: "Founder, Aurora", en: "Founder, Aurora" },
-    quote: {
-      es: "Entregó nuestra tienda antes de tiempo y con una calidad impecable.",
-      en: "Delivered our store ahead of schedule and with impeccable quality.",
+      es: "David demuestra una notable capacidad de aprendizaje acelerado y un compromiso riguroso con la entrega de soluciones funcionales y bien estructuradas.",
+      en: "David demonstrates a remarkable fast-learning capability and a rigorous commitment to delivering well-structured, working software.",
     },
   },
 ]
@@ -546,31 +459,24 @@ export type Faq = {
 
 export const faqs: Faq[] = [
   {
-    question: { es: "¿Trabajas de forma remota?", en: "Do you work remotely?" },
+    question: { es: "¿Qué tipo de proyectos desarrollas principalmente?", en: "What kind of projects do you primarily develop?" },
     answer: {
-      es: "Sí, trabajo con clientes de todo el mundo de forma 100% remota, adaptándome a tu zona horaria.",
-      en: "Yes, I work with clients worldwide, fully remote, adapting to your time zone.",
+      es: "Desarrollo aplicaciones web Full Stack modernas (React/Next.js/Node.js), integraciones con APIs de Inteligencia Artificial (Google Gemini) y flujos de automatización de procesos empresariales con n8n.",
+      en: "I develop modern Full Stack web applications (React/Next.js/Node.js), integrations with AI APIs (Google Gemini) and business workflow automation pipelines with n8n.",
     },
   },
   {
-    question: { es: "¿Cómo es tu proceso de trabajo?", en: "What is your work process?" },
+    question: { es: "¿Estás disponible para trabajar de forma remota?", en: "Are you available for remote work?" },
     answer: {
-      es: "Descubrimiento, diseño, desarrollo iterativo con entregas semanales y despliegue continuo.",
-      en: "Discovery, design, iterative development with weekly deliveries and continuous deployment.",
+      es: "Sí, estoy 100% disponible para roles remotos o híbridos en equipos de desarrollo en cualquier zona horaria de América o Europa.",
+      en: "Yes, I am 100% available for remote or hybrid positions across any time zone in the Americas or Europe.",
     },
   },
   {
-    question: { es: "¿Ofreces mantenimiento?", en: "Do you offer maintenance?" },
+    question: { es: "¿Cómo puedo contactarte para una entrevista técnica?", en: "How can I contact you for a technical interview?" },
     answer: {
-      es: "Sí, ofrezco planes de soporte y mantenimiento continuo tras el lanzamiento.",
-      en: "Yes, I offer ongoing support and maintenance plans after launch.",
-    },
-  },
-  {
-    question: { es: "¿Cuánto cuesta un proyecto?", en: "How much does a project cost?" },
-    answer: {
-      es: "Depende del alcance. Escríbeme y te preparo una propuesta a medida sin compromiso.",
-      en: "It depends on scope. Reach out and I'll prepare a tailored, no-commitment proposal.",
+      es: "Puedes enviarme un correo directo a davidlealperez522@gmail.com o conectar a través de mi perfil de GitHub (@Zenda0610) y LinkedIn.",
+      en: "You can send an email directly to davidlealperez522@gmail.com or connect through my GitHub profile (@Zenda0610) and LinkedIn.",
     },
   },
 ]
